@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Gudian;
+    src: url("resources/gudian.otf") format("opentype");
+}
+
+body {
+    margin: 0;
+    background-image: url("resources/texture.png");
+    background-color: #86a697;
+}
+
+#container {
+    /* background-image: url("gloss.png"); */
+    width: 100%;
+    height: 100%;
+}
+
+#poetry {
+    margin: 50px auto;
+    font-family: "Gudian";
+    font-size: 30px;
+    color: whitesmoke;
+    writing-mode: vertical-rl;
+}
