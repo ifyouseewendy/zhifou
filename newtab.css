@@ -1,16 +1,16 @@
 @font-face {
-    font-family: Gudian;
-    src: url("resources/gudian.otf") format("opentype");
+    font-family: "Gudian";
+    src: url("../fonts/gudian.otf") format("opentype");
 }
 
 body {
     margin: 0;
-    background-image: url("resources/texture.png");
+    background-image: url("images/resources/texture.png");
     background-color: #86a697;
 }
 
 #container {
-    /* background-image: url("gloss.png"); */
+    /* background-image: url("images/resources/gloss.png"); */
     width: 100%;
     height: 100%;
 }
