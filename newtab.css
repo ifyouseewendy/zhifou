@@ -1,12 +1,11 @@
 @font-face {
     font-family: "Gudian";
-    src: url("../fonts/gudian.otf") format("opentype");
+    src: url("fonts/gudian.otf") format("opentype");
 }
 
 body {
     margin: 0;
     background-image: url("images/resources/texture.png");
-    background-color: #86a697;
 }
 
 #container {
@@ -21,4 +20,8 @@ body {
     font-size: 30px;
     color: whitesmoke;
     writing-mode: vertical-rl;
+}
+
+#poet {
+    font-size: 25px;
 }
