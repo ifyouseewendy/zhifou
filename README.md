@@ -1,3 +1,7 @@
+## Zhifou
+
+A Chrome plugin for displaying Chinese poetry in new tab.
+
 ### How to use?
 
 1. Download the extension by `git clone git@github.com:ifyouseewendy/chrome-plugin-hello-world.git`
@@ -8,6 +12,6 @@
 
 ### Reference
 
-+ [Chrome Extensions - Home](https://developer.chrome.com)
 + [Chrome Extensions - Getting Started Tutorial](https://developer.chrome.com/extensions/getstarted)
++ Icon made by [dDara](https://www.flaticon.com/authors/ddara)
 
