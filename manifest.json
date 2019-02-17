@@ -12,17 +12,17 @@
   },
   "browser_action": {
     "default_icon": {
-      "16": "images/icons/get_started16.png",
-      "32": "images/icons/get_started32.png",
-      "48": "images/icons/get_started48.png",
-      "128": "images/icons/get_started128.png"
+      "16": "images/icons/sakura_16.png",
+      "32": "images/icons/sakura_32.png",
+      "48": "images/icons/sakura_64.png",
+      "128":"images/icons/sakura_128.png"
     }
   },
   "icons": {
-    "16": "images/icons/get_started16.png",
-    "32": "images/icons/get_started32.png",
-    "48": "images/icons/get_started48.png",
-    "128": "images/icons/get_started128.png"
+    "16": "images/icons/sakura_16.png",
+    "32": "images/icons/sakura_32.png",
+    "48": "images/icons/sakura_64.png",
+    "128":"images/icons/sakura_128.png"
   },
   "manifest_version": 2
 }
