@@ -23,7 +23,7 @@ document.addEventListener(
                 const poem = getRandom(poems);
                 document.getElementById("title").innerHTML = poem.rhythmic;
                 document.getElementById("poet").innerHTML = poem.author;
-                document.getElementById("contents").innerHTML = poem.paragraphs.join("<br/>");
+                document.getElementById("contents").innerHTML = "<br/>" + poem.paragraphs.join("<br/>");
             });
     },
     false
