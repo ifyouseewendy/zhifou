@@ -1,7 +1,7 @@
 {
   "name": "知否",
   "description" :"知否是一款 Chrome 插件，在新标签页定制化展示中文诗词",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "permissions": ["tabs"],
   "permissions": [
     "https://github.com/"

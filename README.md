@@ -10,8 +10,8 @@ A Chrome plugin for displaying Chinese poetry in new tab.
 4. Click on "Load unpacked" and select the proejct folder
 5. Done
 
-### Reference
+### Credit
 
-+ [Chrome Extensions - Getting Started Tutorial](https://developer.chrome.com/extensions/getstarted)
++ Poems from [chinese-poetry/chinese-poetry](https://github.com/chinese-poetry/chinese-poetry) created by [jackeyGao](https://github.com/jackeyGao)
 + Icon made by [dDara](https://www.flaticon.com/authors/ddara)
 
