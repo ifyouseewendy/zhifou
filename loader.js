@@ -19,7 +19,7 @@ function fetchPoems() {
     const query = { query: "{  ci {    author    rhythmic    content  }}" };
 
     return fetch(
-        'http://localhost:3000/graphql',
+        'https://chinese-poetry.ifyouseewendy.com/graphql',
         {
             method: "POST",
             headers: { "Content-Type": "application/json" },
