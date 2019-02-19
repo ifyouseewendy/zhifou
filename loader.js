@@ -17,16 +17,16 @@ function renderPoem(poem) {
 function getPoem() {
     return new Promise(
         function(resolve, reject) {
-            chrome.storage.sync.get(['poems'], function(result) {
+            chrome.storage.local.get(['poems'], function(result) {
                 const poems = (!result.poems || result.poems.length === 0) ?  [...DEFAULT_POEMS] : result.poems;
                 const poem = poems.shift();
 
                 if (poems.length === 0) {
                     fetchPoems().then(function(poems) {
-                        chrome.storage.sync.set({ "poems": poems });
+                        chrome.storage.local.set({ "poems": poems });
                     });
                 } else {
-                    chrome.storage.sync.set({ "poems": poems });
+                    chrome.storage.local.set({ "poems": poems });
                 }
 
                 resolve(poem);
