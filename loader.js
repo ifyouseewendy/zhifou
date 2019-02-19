@@ -36,7 +36,7 @@ function getPoem() {
 }
 
 function fetchPoems() {
-    const query = { query: "{ ci { author rhythmic content }}" };
+    const query = { query: "{ ci(perPage: 30) { author rhythmic content }}" };
 
     return fetch(
         'http://localhost:3000/graphql',
